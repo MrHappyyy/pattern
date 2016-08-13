@@ -1,0 +1,62 @@
+.gradient {
+    background: -webkit-gradient(linear, left top, left bottom, from(#000), to(transparent));
+  	background:    -moz-linear-gradient(bottom, #000, transparent);
+  	background:      -o-linear-gradient(bottom, #000, transparent);
+  	background:         linear-gradient(bottom, #000, transparent);
+    padding: 10px;
+    width: 100%;
+}
+
+body {
+	background-image: url(lev.jpg);
+}
+
+p {
+	color: #ffffff;
+}
+
+#menu, #logotype, #search, #section, #date, #description {position: absolute;}
+#section, #date {overflow: auto; bottom: 25%;}
+#menu, #logotype, #search {overflow:  auto; bottom: 85%; height: 15%;}
+
+#menu {
+	left: 0;
+	width: 15%;
+}
+
+#logotype {
+	right: 15%;
+	left: 15%;
+}
+
+#search {
+	width: 15%;
+	right: 0;
+}
+
+#section {
+	width: 35%;
+}
+
+#section p {
+	
+}
+
+#date {
+	left: 35%;
+}
+
+#date p {
+
+}
+
+#description {
+	top: 75%;
+    left: 0;  
+    bottom: 0; 
+    right: 0px;
+}
+
+#description p {
+
+}
