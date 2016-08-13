@@ -3,7 +3,7 @@
   	background:    -moz-linear-gradient(bottom, #000, transparent);
   	background:      -o-linear-gradient(bottom, #000, transparent);
   	background:         linear-gradient(bottom, #000, transparent);
-    padding: 10px;
+    padding: 0px;
     width: 100%;
 }
 
@@ -13,11 +13,12 @@ body {
 
 p {
 	color: #ffffff;
+	text-align: center;
 }
 
-#menu, #logotype, #search, #section, #date, #description {position: absolute;}
-#section, #date {overflow: auto; bottom: 25%;}
-#menu, #logotype, #search {overflow:  auto; bottom: 85%; height: 15%;}
+#menu, #logotype, #search, #section, #date, #description {overflow: auto; position: absolute;}
+#section, #date {bottom: 25%;}
+#menu, #logotype, #search {bottom: 80%; height: 20%;}
 
 #menu {
 	left: 0;
