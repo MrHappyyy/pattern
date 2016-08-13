@@ -1,9 +1,9 @@
 .gradient {
-    background: -webkit-gradient(linear, left top, left bottom, from(#000), to(transparent));
+    /*background: -webkit-gradient(linear, left top, left bottom, from(#000), to(transparent));
   	background:    -moz-linear-gradient(bottom, #000, transparent);
   	background:      -o-linear-gradient(bottom, #000, transparent);
-  	background:         linear-gradient(bottom, #000, transparent);
-    padding: 0px;
+  	background:         linear-gradient(bottom, #000, transparent);*/
+  	background: linear-gradient(to top, #000, transparent);
     width: 100%;
 }
 
@@ -31,33 +31,51 @@ p {
 }
 
 #search {
-	width: 15%;
+	width: 17%;
 	right: 0;
 }
 
 #section {
 	width: 35%;
+	left: 20px;
 }
 
 #section p {
-	
+	text-align: left;
+	font-family: Arial;
+	font-weight: bolder;
+	font-size: 12;
+	padding-left: 5px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	background-color: #008080;
 }
 
 #date {
-	left: 35%;
+	left: 40%;
 }
 
 #date p {
-
+	text-align: left;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 11;
+	padding-left: 20px;
+	padding-bottom: 5px;
+	padding-top: 5px;
 }
 
 #description {
-	top: 75%;
+	top: 70%;
     left: 0;  
     bottom: 0; 
     right: 0px;
 }
 
 #description p {
-
+	text-align: left;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 32;
+	padding-left: 30px;
 }
